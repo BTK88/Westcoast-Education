@@ -51,3 +51,13 @@ När en elev eller kund köper en kurs så skall kursen lagras iprofiluppgiftern
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 
+STEG 1 Framtagning av ”Proof Of Concept” I detta första steg behöver vi applikation som presenterar våra kurser på ett attraktivtoch modernt sätt.oss, där besökare kan få en överblick över vad vi kan erbjuda. Vi vill dessutom ha en sida där aktuella och populära kurser presenteras. På sidan som presenterar detaljer om kursen vill vi att följande information finns:
+
+• Kurstitel • Kursnummer • Antal dagar som kursen är • Om den finns tillgänglig som klassrum och eller distanskurs • En bild som representerar kursen • Datum då kursen är planerad att genomföras • En möjlighet att boka sig för kursen via klassrum eller distans
+
+Vid bokning av en kurs så måste användaren/kunden logga in eller skapa ett konto. På bokningssidan ska följande information anges.
+
+• Kundnamn • Faktureringsadress • E-postadress • Mobilnummer
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
