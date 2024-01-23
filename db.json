@@ -1,0 +1,329 @@
+{
+    "courses": [
+      {
+        "title": "Cloud Computing for Beginners",
+        "teacher": "Tilia Jonasson",
+        "duration": 3,
+        "price": 349,
+        "popularity": 26,
+        "scheduleddate": "3/1/2024",
+        "imageUrl": "course1.jpg",
+        "description": "Over the last couple of years, many business companies decided to use more and more cloud services as part of their digital transformation. They are trying to be more innovative and flexible to the dynamic business landscape by leveraging the power of the cloud. Cloud computing includes a variety of cloud service models, like SaaS, IaaS, PaaS, and FaaS. Each of them is a complete category of cloud services used to solve a variety of business challenges.",
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "id": 1
+      },
+      {
+        "id": 2,
+        "title": "Azure Fundamentals",
+        "teacher": "Ingrid Arvidsson",
+        "duration": 7,
+        "price": 399,
+        "popularity": 44,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course2.jpg",
+        "scheduleddate": "2024-03-15",
+        "description": "Azure is a rapidly growing technology that is being adopted by many corporations. Nearly all organizations have migrated to the cloud or have a plan to do so. The skills required to manage cloud based resources are necessary for those that are entering the IT field and those that are currently in IT."
+      },
+      {
+        "id": 3,
+        "title": "Active Directory on Windows Server",
+        "teacher": "Samir Björklund",
+        "duration": 5,
+        "price": 249,
+        "popularity": 31,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course3.jpg",
+        "scheduleddate": "2024-04-10",
+        "description": "Do you want to be a master of Active Directory? If so, this course is intended for you. This course will broaden your knowledge of active directory domain services (AD DS). You will learn how to configure some of the key features in Active Directory such as Active Directory Domain Services (AD DS), Group Policy, Dynamic Access Control (DAC), Work Folders, Work Place Join, Certificate Services, Rights Management Services (RMS), Federation Services, as well as integrating your on premise environment with cloud based technologies such as Windows Azure Active Directory."
+      },
+      {
+        "id": 4,
+        "title": "Mastering DNS on Windows Server",
+        "teacher": "Sol Hellström",
+        "duration": 5,
+        "price": 499,
+        "popularity": 49,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course4.jpg",
+        "scheduleddate": "2024-04-20",
+        "description": "This course is designed to provide you with a solid foundation for Windows DNS server. You will learn by completing the following tasks."
+      },
+      {
+        "id": 5,
+        "title": "Information Security Fundamentals",
+        "teacher": "Natalia Johansson",
+        "duration": 2,
+        "price": 399,
+        "popularity": 56,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course5.jpg",
+        "scheduleddate": "2024-05-02",
+        "description": "This course is meant for anyone curious about InfoSec and just starting out in this field. Terminology and concepts are explained with the goal of being clear even to those who hear of them for the very first time."
+      },
+      {
+        "id": 6,
+        "title": "Cyber Security",
+        "teacher": "Saga Sjöberg",
+        "duration": 3,
+        "price": 199,
+        "popularity": 72,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course6.jpg",
+        "scheduleddate": "2024-05-15",
+        "description": "A beginner level comprehensive course that includes step-by-step explanations of core security concepts along with follow-up quizzes and hands on labs to ensure a solid learning for the course taker."
+      },
+      {
+        "id": 7,
+        "title": "Introduction to Vulnerability Management",
+        "teacher": "Adnan Mårtensson",
+        "duration": 3,
+        "price": 449,
+        "popularity": 15,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course7.jpg",
+        "scheduleddate": "2024-06-01",
+        "description": "The course covers the basics of Vulnerability Management. The course dives into detail information of on the critical issues of vulnerabilities. It covers risk management and covers the basis of penetration testing vs vulnerability management as well. The course also includes lab simulation of vulnerability management processes. The lab introduces the students to Nessus and how vulnerabilities are tracked in the security scanner based on the respective critical level."
+      },
+      {
+        "id": 8,
+        "title": "Mastering Windows Security",
+        "teacher": "Alve Lundberg",
+        "duration": 1,
+        "price": 599,
+        "popularity": 63,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course8.jpg",
+        "scheduleddate": "2024-06-15",
+        "description": "In today's fast-paced digital landscape, securing your Windows environment is no longer optional—it's essential. This course is meticulously designed to help you fortify your systems in the most efficient manner."
+      },
+      {
+        "id": 9,
+        "title": "Fundamentals of Network Security",
+        "teacher": "Ellen Samuelsson",
+        "duration": 6,
+        "price": 549,
+        "popularity": 52,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course9.jpg",
+        "scheduleddate": "2024-07-02",
+        "description": "We know that network security is the basic requirement of an IT company, so it is necessary for every student in the IT industry to learn the basic concept of network security. In this course, you will learn the fundamentals of network security and take the first leap into the world of the IT industry."
+      },
+      {
+        "id": 10,
+        "title": "Security in IoT",
+        "teacher": "Alessandro Öberg",
+        "duration": 2,
+        "price": 299,
+        "popularity": 78,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course10.jpg",
+        "scheduleddate": "2024-07-15",
+        "description": "In this course, learners will be going the study the Internet of Things (IoT) security. Starting from the Internet of Things (IoT) security introduction, learners will get an idea about why security is required in the Internet of Things (IoT)."
+      },
+      {
+        "id": 11,
+        "title": "Cybersecurity For Beginners",
+        "teacher": "Stina Petersson",
+        "duration": 8,
+        "price": 549,
+        "popularity": 43,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course11.jpg",
+        "scheduleddate": "2024-08-01",
+        "description": "Whether you want to get your first job in IT security, become a white hat hacker, or prepare to check the security of your own home network, Udemy offers practical and accessible ethical hacking courses to help keep your networks safe from cybercriminals."
+      },
+      {
+        "id": 12,
+        "title": "Cloud Migration on Microsoft Azure",
+        "teacher": "Patrick Lindgren",
+        "duration": 7,
+        "price": 449,
+        "popularity": 60,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course12.jpg",
+        "scheduleddate": "2024-08-15",
+        "description": "In this course, you will be learning various Cloud Migration tools and services available on Microsoft Azure Cloud Platform."
+      },
+      {
+        "id": 13,
+        "title": "ChatGPT for IT Workers",
+        "teacher": "Elena Martinsson",
+        "duration": 3,
+        "price": 299,
+        "popularity": 91,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course13.jpg",
+        "scheduleddate": "2024-09-03",
+        "description": "This may be the most useful course you have ever taken!  ChatGPT and AI are revolutionizing all industries.  ChatGPT is perhaps the largest single step in the technology industry, ever! ChatGPT has been designed to generate human-like responses to natural language input, with the purpose of assisting and communicating with humans. The benefits are enormous to all industries, especially the IT industry!"
+      },
+      {
+        "id": 14,
+        "title": "Scrum Master Professional Certification",
+        "teacher": "Lars Berg",
+        "duration": 7,
+        "price": 399,
+        "popularity": 49,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course14.jpg",
+        "scheduleddate": "2024-09-15",
+        "description": "The Scrum Master assessment is an important tool for assessing an individual's knowledge and skills related to the Scrum framework, which is a popular Agile project management methodology used by companies worldwide."
+      },
+      {
+        "id": 15,
+        "title": "Ethical Hacking From Scratch",
+        "teacher": "Noa Hermansson",
+        "duration": 15,
+        "price": 599,
+        "popularity": 13,
+        "learningType": {
+          "classroom": true,
+          "distance": true
+        },
+        "imageUrl": "course15.jpg",
+        "scheduleddate": "2024-10-01",
+        "description": "Welcome this comprehensive Ethical Hacking course! This course assumes you have NO prior knowledge! It starts with you from scratch and takes you step-by-step teaching you how to hack systems like black-hat hackers and secure them like security experts!"
+      }
+    ],
+    "users": [
+      {
+        "fullname": "Isidor Andersson",
+        "mobileNumber": "0701234567",
+        "billingAddress": "Lidbovägen 90, 941 84 PITEÅ",
+        "username": "isidorandersson@outlook.se",
+        "password": "Ceew3nee1Ph",
+        "id": 1
+      },
+      {
+        "fullname": "Blenda Eklund",
+        "mobileNumber": "0747654321",
+        "billingAddress": "Nöjesgatan 42, 534 14 VARA",
+        "username": "blendaeklund@gmail.com",
+        "password": "Pulty1952",
+        "id": 2
+      },
+      {
+        "fullname": "Magdalena Nilsson",
+        "mobileNumber": "0762346751",
+        "billingAddress": "Trädgårdsgatan 78, 825 00 IGGESUND",
+        "username": "magdalenanilsson@gmail.com",
+        "password": "Ievisuta9s",
+        "id": 3
+      }
+    ],
+    "bookings": [
+      {
+        "courseId": "6",
+        "courseTitle": "Cyber Security",
+        "classroom": false,
+        "distance": true,
+        "fullname": "Blenda Eklund",
+        "billingAddress": "Nöjesgatan 42, 534 14 VARA",
+        "username": "blendaeklund@gmail.com",
+        "mobileNumber": "0747654321",
+        "userId": 2,
+        "id": 1
+      },
+      {
+        "courseId": "7",
+        "courseTitle": "Introduction to Vulnerability Management",
+        "classroom": true,
+        "distance": false,
+        "fullname": "Blenda Eklund",
+        "billingAddress": "Nöjesgatan 42, 534 14 VARA",
+        "username": "blendaeklund@gmail.com",
+        "mobileNumber": "0747654321",
+        "userId": 2,
+        "id": 2
+      },
+      {
+        "courseId": "6",
+        "courseTitle": "Cyber Security",
+        "classroom": false,
+        "distance": true,
+        "fullname": "Magdalena Nilsson",
+        "billingAddress": "Trädgårdsgatan 78, 825 00 IGGESUND",
+        "username": "magdalenanilsson@gmail.com",
+        "mobileNumber": "0762346751",
+        "userId": 3,
+        "id": 3
+      },
+      {
+        "courseId": "10",
+        "courseTitle": "Security in IoT",
+        "classroom": false,
+        "distance": true,
+        "fullname": "Magdalena Nilsson",
+        "billingAddress": "Trädgårdsgatan 78, 825 00 IGGESUND",
+        "username": "magdalenanilsson@gmail.com",
+        "mobileNumber": "0762346751",
+        "userId": 3,
+        "id": 4
+      },
+      {
+        "courseId": "10",
+        "courseTitle": "Security in IoT",
+        "classroom": false,
+        "distance": true,
+        "fullname": "Isidor Andersson",
+        "billingAddress": "Lidbovägen 90, 941 84 PITEÅ",
+        "username": "isidorandersson@outlook.se",
+        "mobileNumber": "0701234567",
+        "userId": 1,
+        "id": 5
+      },
+      {
+        "courseId": "13",
+        "courseTitle": "ChatGPT for IT Workers",
+        "classroom": false,
+        "distance": true,
+        "fullname": "Isidor Andersson",
+        "billingAddress": "Lidbovägen 90, 941 84 PITEÅ",
+        "username": "isidorandersson@outlook.se",
+        "mobileNumber": "0701234567",
+        "userId": 1,
+        "id": 6
+      }
+    ]
+  }
