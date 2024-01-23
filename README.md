@@ -61,3 +61,14 @@ Vid bokning av en kurs så måste användaren/kunden logga in eller skapa ett ko
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 
+STEG 2 Administrationsverktyg Vi behöver en applikation som ger oss tillgång till att lägga till nya kurser. När vi lägger till nya kurser så behöver vi ange följande information:
+
+• Kurstitel • Kursnummer • Antal dagar som kursen är • Kostnad för kursen
+
+Dessutom behöver vi tillgång till attkunnalista vilka kundersom har bokat sig på respektive kurs.
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+FUNKTIONSKRAV
+
+Vi vill att applikationen skall fungera i alla moderna webbläsare och gå att använda i olika skärmstorlekar och i olika enheter. Det är jätteviktigt att applikationen är responsiv, vår gamla applikation var inte detta och vi fick väldigt mycket kritik för detta.
