@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Välkommen till WestCoast Education, en plattform för tekniska utbildningar">
+    <link rel="icon" type="image/x-icon" href="/content/images/favicon.ico">
+    <link rel="stylesheet" href="/content/css/style.css">
+    <script src="/scripts/course-details.js" defer type="module"></script>
+    <title>WestCoast Education | Kursdetaljer</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <div>
+            <a href="/index.html"><h1>WestCoast Education</h1></a>  
+        </div>
+        <ul class="navigation-list">
+            <li><a href="/pages/about.html">Om Oss</a></li>
+            <li><a href="/pages/courses.html">Kurser</a></li>
+            <li><a href="/pages/contact.html">Kontakt</a></li>
+            <li><a href="/pages/admin.html">Administration</a></li>
+        </ul> 
+        <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+			<h2>Mer information om kursen</h2>
+		</section> 
+        <section class="courses" id="loggedIn-userInfo"></section>     
+        <section class="courses" id="course-details-container"></section>
+        
+        <section class="courses" id="signin">
+            <div class="course-card-details">
+                <h2>Logga in</h2>
+                <form id="signinForm">
+                    <div>
+                        <label for="username">Användarnamn (E-postadress)</label>
+                        <input type="email" name="username" id="usernameSignin" placeholder="Ange E-postadress">
+                    </div>
+                    <div>
+                        <label for="password">Lösenord</label>
+                        <input type="password" name="password" id="passwordSignin" placeholder="Ange lösenord">
+                    </div>
+                    <div>
+                        <button type="submit" class="button-add" id="signinButton">Logga in</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="courses" id="signup">
+            <div class="course-card-details">
+                <h2>Registrera</h2>
+                <form id="signupForm">
+                    <div>
+                        <label for="fullname">Ditt namn</label>
+                        <input type="text" name="fullname" id="fullnameSignup" placeholder="Ange ditt namn">
+                    </div>
+                    <div>
+                        <label for="mobileNumber">Mobilnummer</label>
+                        <input type="tel" name="mobileNumber" id="mobileNumberSignup" placeholder="Ange mobilnummer">
+                    </div>
+                    <div>
+                        <label for="billingAddress">Faktureringsadress</label>
+                        <input type="text" name="billingAddress" id="billingAddressSignup" placeholder="Ange faktureringsadress">
+                    </div>
+                    <div>
+                        <label for="username">Användarnamn (E-postadress)</label>
+                        <input type="email" name="username" id="usernameSignup" placeholder="Ange E-postadress">
+                    </div>
+                    <div>
+                        <label for="password">Lösenord</label>
+                        <input type="password" name="password" id="passwordSignup" placeholder="Ange lösenord">
+                    </div>
+                    <div>
+                        <button type="submit" class="button-create" id="signupButton">Skapa konto</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="courses" id="booking">
+            <div class="course-card-details">
+                <h2>Boka Kurs</h2>
+                <form id="bookingForm">
+                <div>
+                    <label>Undervisningsupplägg</label>
+                    <div>
+                        <input type="checkbox" name="classroom" id="classroom">
+                        <label for="classroom">Klassrum</label>        
+                        <input type="checkbox" name="distance" id="distance">
+                        <label for="distance">Distans</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="fullname">Ditt namn</label>
+                    <input type="text" name="fullname" id="fullnameBooking" placeholder="Ange ditt namn">
+                </div>
+                <div>
+                    <label for="billingAddress">Faktureringsadress</label>
+                    <input type="text" name="billingAddress" id="billingAddressBooking" placeholder="Ange faktureringsadress">
+                </div>
+                <div>
+                    <label for="username">Användarnamn (E-postadress)</label>
+                    <input type="email" name="username" id="usernameBooking" placeholder="Ange E-postadress">
+                </div>
+                <div>
+                    <label for="mobileNumber">Mobilnummer</label>
+                    <input type="tel" name="mobileNumber" id="mobileNumberBooking" placeholder="Ange mobilnummer">
+                </div>
+                <div>
+                    <button type="submit" class="button-add" id="bookingButton">Boka kurs</button>
+                </div>
+            </form>
+            </div>
+        </section>
+        
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WestCoast Education</p>
+    </footer> 
+
+</body>
+</html>
