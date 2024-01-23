@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Välkommen till WestCoast Education, en plattform för tekniska utbildningar">
+    <link rel="icon" type="image/x-icon" href="/content/images/favicon.ico">
+    <link rel="stylesheet" href="/content/css/style.css">
+    <script src="/scripts/add-course.js" defer type="module"></script>
+    <title>WestCoast Education | Lägg till ny kurs</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <div>
+            <a href="/index.html"><h1>WestCoast Education</h1></a>  
+        </div>
+        <ul class="navigation-list">
+            <li><a href="/pages/about.html">Om Oss</a></li>
+            <li><a href="/pages/courses.html">Kurser</a></li>
+            <li><a href="/pages/contact.html">Kontakt</a></li>
+            <li><a href="/pages/admin.html">Administration</a></li>
+        </ul> 
+        <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+			<h2>Lägg till en ny kurs</h2>
+		</section>  
+        <section class="container">
+            <form id="addCourseForm">
+            <div>
+                <label for="title">Kurstitel</label>
+                <input type="text" name="title" id="title" placeholder="Ange kurstitel">
+            </div>
+            <div>
+                <label for="teacher">Lärare</label>
+                <input type="text" name="teacher" id="teacher" placeholder="Ange lärare">
+            </div>
+            <div>
+                <label for="duration">Varaktighet (timmar) </label>
+                <input type="number" name="duration" id="duration" placeholder="Ange varaktighet">
+            </div>
+            <div>
+                <label>Undervisningsupplägg</label>
+                <div>
+                    <input type="checkbox" name="classroom" id="classroom">
+                    <label for="classroom">Klassrum</label>        
+                    <input type="checkbox" name="distance" id="distance">
+                    <label for="distance">Distans</label>
+                </div>
+            </div>
+            <div>
+                <label for="price">Pris</label>
+                <input type="number" name="price" id="price" placeholder="Ange pris">
+            </div>
+            <div>
+                <label for="popularity">Betyg (popularitet)</label>
+                <input type="number" name="popularity" id="popularity" placeholder="Ange betyg">
+            </div>
+            <div>
+                <label for="scheduleddate">Kursstart</label>
+                <input type="text" name="scheduleddate" id="scheduleddate" placeholder="Ange kursstart">
+            </div>
+            <div>
+                <label for="imageUrl">Bild url</label>
+                <input type="text" name="imageUrl" id="imageUrl" placeholder="Ange url på kursen">
+            </div>
+            <div>
+                <label for="description">Beskrivning</label>
+                <textarea name="description" id="description" cols="30" rows="10" placeholder="Ange beskrivning på kursen"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="button-add">Lägg till</button>
+            </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WestCoast Education</p>
+    </footer> 
+
+</body>
+</html>
