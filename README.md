@@ -43,3 +43,11 @@ Läraren måste även informeras om att kursen är inställd, dettamåste ske se
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 
+ON-DEMAND KURSER Vårt nästa steg är att kunna tillhandahålla on-demand kurser,det vill säga färdiginspelade kurser som elever skall kunnaköpa till ett överkomligt pris. Vi kommer även atttillhandahålla prenumerationsmöjlighet till kurserna. Vilketinnebär att vi kommer till en låg månadskostnad låta elevereller andra kunder få tillgång till alla kurser som finns sominspelade.
+
+Här vill vi på samma sätt som ovan ha en listning av kursersom är grupperade i olika utvecklingsområden. Det skall ävenhär gå att titta på detaljer om kursen, men här vill vi hamöjlighet att kunna förhandsvisa utvalda delar av kursen föratt locka till köp eller prenumeration.
+
+När en elev eller kund köper en kurs så skall kursen lagras iprofiluppgifterna för köparen. För att kunna köpa en kursmåste man vara inloggad och registrerad i systemet.Det viktiga här är att om eleven/kunden köper en kurs i tagetså behöver vi kunna spåra vilka kurser som är köpta för attkunna rekommendera nya kurser. Detta vill vi skall kunna ske med hjälp av e-postutskick.
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
