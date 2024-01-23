@@ -31,3 +31,15 @@ För varje kurs så skall det finnas möjlighet för elever attkunna ställa fr�
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 
+BOKNING AV KLASSRUMSKURSER För att kunna boka en kurs via verktyget måste man ha ettanvändarkonto. Så ett sätt för att registrera sig och logga inmåste skapas.
+
+När en elev har bokat en kurs så behöver vi kunna skicka ettbekräftelsemejl med betalningsuppgifter och ettvälkomstmeddelande. Dessutom så måste vi kunna skicka ettstartmejl senast två veckor före kursstart.
+
+Varje bokad kurs skall även lagras i elevens historik och varatillgänglig via elevens profiluppgifter.
+
+Skulle det vara så att 3 veckor före kursstart vi inte harfler än 5 deltagare anmälda så måste vi tyvärr av ekonomiskaskäl boka av kursen. Detta innebär att ett mejl måste skickastill eleverna att kursen är inställd samt så måsteåterbetalning hanteras eller ombokning till annan kurs.
+
+Läraren måste även informeras om att kursen är inställd, dettamåste ske senast 2 veckor innan kursstart. Annars blir viersättningsskyldiga och måste betala läraren sitt arvode.
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
