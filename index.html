@@ -1,88 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <link
-      rel="stylesheet"
-      href="/content/css/site.css"
-    />
-    <link
-      rel="stylesheet"
-      href="/content/css/navigation.css"
-    />
-    <link
-      rel="stylesheet"
-      href="/content/css/utilities.css"
-    />
-    <link
-      rel="stylesheet"
-      href="/content/css/index.css"
-    />
-    <link
-      rel="stylesheet"
-      href="/content/css/admin/index.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/55174c58a9.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <title>Westcoast-Education</title>
-  </head>
-  <body class="grid-container">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Välkommen till WestCoast Education, en plattform för tekniska utbildningar">
+    <link rel="icon" type="image/x-icon" href="/content/images/favicon.ico">
+    <link rel="stylesheet" href="/content/css/style.css">
+    <script src="/scripts/main.js" defer type="module"></script>
+    <title>WestCoast Education</title>
+</head>
+<body>
     <header>
-      <nav>
-        <div class="container">
-          <ul class="menu">
-            <li class="logo">
-              <a href="index.html"> West Coast Education</a>
-            </li>
-            <li class="toggle">
-              <input
-                class="menu-btn"
-                type="checkbox"
-                id="menu-btn"
-              />
-              <label
-                class="menu-icon"
-                for="menu-btn"
-                ><span class="nav-icon"></span>
-              </label>
-            </li>
-
-            <li class="menu-item">
-              <a href="/html/register.html">Register</a>
-            </li>
-            <li class="menu-item">
-              <a href="/admin-html/index-admin.html">Administration</a>
-            </li>
-          </ul>
+        <nav>
+        <div>
+            <a href="/index.html"><h1>WestCoast Education</h1></a>  
         </div>
-      </nav>
+        <ul class="navigation-list">
+            <li><a href="./pages/about.html">Om Oss</a></li>
+            <li><a href="./pages/courses.html">Kurser</a></li>
+            <li><a href="./pages/contact.html">Kontakt</a></li>
+            <li><a href="./pages/admin.html">Administration</a></li>
+        </ul> 
+        <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </div>
+        </nav>
     </header>
+
     <main>
-      <article id="main-area">
-        <section class="container">
-          <h1 class="page-title">Welcome to WestCoast Education</h1>
-          <a
-            href="/html/courses.html"
-            class="btn"
-            >See our courses</a
-          >
-        </section>
-      </article>
+        <section class="banner">
+			<h1>WestCoast Education</h1>
+			<p>Välkommen till vår utbildningsplatform</p>
+			<a href="./pages/courses.html" class="button">Bläddra genom alla våra kurser</a>
+		</section>
+        <section class="page-title">
+			<h2>Populära Kurser</h2>
+		</section>      
+        <section class="courses" id="courses"></section>
     </main>
-    <footer id="footer">
-      <p>Westcoast Education &copy; 2023</p>
-      <div class="footer-social-icon">
-        <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-        <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-        <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
-      </div>
-    </footer>
-  </body>
+
+    <footer>
+        <p>&copy; 2024 WestCoast Education</p>
+    </footer> 
+
+</body>
 </html>
