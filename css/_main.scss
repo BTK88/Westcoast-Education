@@ -1,0 +1,266 @@
+/* global ruleset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: #0077b6;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #023e8a;
+}
+
+.button-add {
+    display: inline-block;
+    background-color: #02a32b;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.button-add:hover {
+    background-color: #018321;
+}
+
+.button-remove {
+    display: inline-block;
+    background-color: #bd0101;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.button-remove:hover {
+    background-color: #830000;
+}
+
+.button-create {
+    display: inline-block;
+    background-color: #bd7201;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.button-create:hover {
+    background-color: #7a4a02;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.page-title h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.courses {
+    margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.admin-courses {
+    margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.course-card {
+    flex-basis: calc(33.33% - 40px);
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.course-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.course-card p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.course-card-details {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.course-card-details img {
+    width: 35%;
+    height: auto;
+    margin-right: 2rem;
+    border-radius: 5px;
+    float: left;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.welcome {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.welcome p {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .course-card {
+        flex-basis: 400px;
+        flex-grow: 1;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .courses {
+        gap: 2rem;
+    }
+
+    .course-card {
+        flex-basis: 500px;
+        flex-grow: 1;
+    }
+
+    .container-card {
+        margin-bottom: unset;
+        margin-bottom: 1rem;
+    }
+
+    .course-card-details img {
+        width: 100%;
+        margin-bottom: 2rem;
+        float: unset;
+    }
+}
