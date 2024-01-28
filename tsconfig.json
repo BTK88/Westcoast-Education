@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "ES6",
+    "moduleResolution": "node", 
+    "outDir": "./dist",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true, 
+    "allowJs": true
+  },
+  "include": ["ts"],
+  "exclude": ["node_modules"]
+}
