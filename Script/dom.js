@@ -207,25 +207,27 @@ const createAdminBookingSection = (course, enrolledUsers, courseBookings) => {
 
 const showUserInfo = () => {
     const loggedInUserInfo = document.getElementById('loggedIn-userInfo');
-
     const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
 
-    const welcomeDiv = document.createElement('div');
-    welcomeDiv.classList.add('welcome');
-
-    const logoutButton = document.createElement('button');
-    logoutButton.textContent = 'Logga ut';
-    logoutButton.classList.add('button');
-    logoutButton.addEventListener('click', logoutHandler);
-
-    const fullnameParagraph = document.createElement('p');
-    fullnameParagraph.textContent = `Välkommen, ${loggedInUser.fullname}!`;
-
-    welcomeDiv.appendChild(fullnameParagraph);
-    welcomeDiv.appendChild(logoutButton);
-
     loggedInUserInfo.innerHTML = ''; 
-    loggedInUserInfo.appendChild(welcomeDiv);
+
+    if (loggedInUser !== null) {
+        const welcomeDiv = document.createElement('div');
+        welcomeDiv.classList.add('welcome');
+
+        const logoutButton = document.createElement('button');
+        logoutButton.textContent = 'Logga ut';
+        logoutButton.classList.add('button');
+        logoutButton.addEventListener('click', logoutHandler);
+
+        const fullnameParagraph = document.createElement('p');
+        fullnameParagraph.textContent = `Välkommen, ${loggedInUser.fullname}!`;
+
+        welcomeDiv.appendChild(fullnameParagraph);
+        welcomeDiv.appendChild(logoutButton);
+
+        loggedInUserInfo.appendChild(welcomeDiv);
+    }
 };
 
 const logoutHandler = () => {
