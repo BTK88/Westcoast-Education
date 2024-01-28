@@ -1,0 +1,51 @@
+{
+  "git.confirmSync": false,
+  "editor.defaultFormatter": "vscode.css-language-features",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onWindowChange",
+  "prettier.singleQuote": true,
+  "prettier.singleAttributePerLine": true,
+  "git.enableSmartCommit": true,
+  "editor.fontLigatures": false,
+  "liveSassCompile.settings.autoprefix": [
+    
+    
+],
+
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/content/css"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/content/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "/**/node_modules/**",
+    "/./vscode/**"
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDelete": false,
+  "workbench.editorAssociations": {
+    "*.docx": "default"
+  },
+  "liveSassCompile.settings.includeItems": [
+
+  ],
+  "[scss]": {
+    "editor.suggest.insertMode": "replace"
+  },
+  "editor.minimap.enabled": false,
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    "**/db.json"
+  ],
+  "json.schemas": [
+  ]
+}
