@@ -19,3 +19,5 @@ This command starts a local JSON server and watches for any changes in the `db.j
 ---
 
 Follow these steps carefully to set up and start using the WestCoast-Education application on your local system. If you encounter any issues, please refer to the troubleshooting guide or submit an issue on GitHub.
+
+---
