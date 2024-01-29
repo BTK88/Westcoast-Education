@@ -7,7 +7,7 @@ npm install
 
 This command fetches and installs all the dependencies required for the project to run correctly.
 
-### Step 3: Start the Application
+### Start the Application
 Once the dependencies are installed, you can start the application. To do this, execute the following command in the terminal:
 
 ```bash
